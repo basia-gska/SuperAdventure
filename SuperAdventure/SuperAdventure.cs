@@ -218,7 +218,7 @@ namespace SuperAdventure
 
             dgvInventory.ColumnCount = 2;
             dgvInventory.Columns[0].Name = "Name";
-            dgvInventory.Columns[0].Width = 197;
+            dgvInventory.Columns[0].Width = 180;
             dgvInventory.Columns[1].Name = "Quantity";
 
             dgvInventory.Rows.Clear();
@@ -238,7 +238,7 @@ namespace SuperAdventure
 
             dgvQuests.ColumnCount = 2;
             dgvQuests.Columns[0].Name = "Name";
-            dgvQuests.Columns[0].Width = 197;
+            dgvQuests.Columns[0].Width = 180;
             dgvQuests.Columns[1].Name = "Done?";
 
             dgvQuests.Rows.Clear();
